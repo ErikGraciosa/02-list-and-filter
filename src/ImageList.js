@@ -9,7 +9,6 @@ export default class ImageList extends Component {
     }
 
     handleChange = e => {
-        console.log(e)
         this.setState({
             filter: e.target.value
         });
@@ -18,7 +17,7 @@ export default class ImageList extends Component {
     render() {
         return (
             <>
-            <h2>Selection dropdown to filter results.</h2>
+            <h2>Select desired dropdown to filter results.</h2>
             <select onChange={this.handleChange}>
                 <option value="">Show All</option>
                 <option value="markhor">Markhor</option>

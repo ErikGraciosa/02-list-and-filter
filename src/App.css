@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
 .App {
   text-align: center;
   justify-content: center;
@@ -16,11 +21,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -30,22 +36,62 @@
 }
 
 .animal-card {
-  
   border: solid black 1px;
   width: 300px;
 }
 
 .animal-list {
-  width: 1000px;
-  justify-content: center;
-  align-self: center;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 img {
   width: 300px;
   max-height: 300px;
+}
+
+select {
+  border: solid black 1px;
+}
+
+.roar {
+  height: 50px;
+  width: 150px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.blue {
+  color: rgb(45, 45, 250);
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    font-size: 100%;
+  }
+  50% {
+    font-size: 105%;
+  }
+  100% {
+    font-size: 100%;
+  }
 }
 
 @keyframes App-logo-spin {
