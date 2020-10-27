@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ImageList from './ImageList';
+import Header from './Header.js';
 
 function App() {
   return (
     <div className="App">
-      Here are the boogers
+      <Header />
+      <ImageList />
     </div>
   );
 }
