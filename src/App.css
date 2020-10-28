@@ -47,6 +47,11 @@
   justify-content: center;
 }
 
+.filterbox {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   width: 300px;
   max-height: 300px;
@@ -54,11 +59,15 @@ img {
 
 select {
   border: solid black 1px;
+  margin: 5px;
 }
 
 .roar {
   height: 50px;
   width: 150px;
+  justify-content: center;
+  text-align: center;
+  justify-self: center;
 }
 
 .yellow {
