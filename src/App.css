@@ -59,6 +59,9 @@ select {
 .roar {
   height: 50px;
   width: 150px;
+  justify-content: center;
+  text-align: center;
+  justify-self: center;
 }
 
 .yellow {
